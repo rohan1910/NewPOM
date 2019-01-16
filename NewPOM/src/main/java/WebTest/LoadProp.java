@@ -9,7 +9,7 @@ public class LoadProp {
     static Properties prop;
     static FileInputStream input;
     static String fileName = "TestData.properties";
-    static String fileLocation = "C:\\Users\\Rohan Patel\\Src\\NewPOM\\src\\test\\java\\TestData.properties";
+    static String fileLocation = "src\\test\\Resources\\";
 
     public String getProperty(String key) {
         prop = new Properties();
